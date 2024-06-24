@@ -49,6 +49,9 @@
 - Отфильтрованные письма в созданной папке "FilteredPhishing" на сервере 
 ![Изображение](https://github.com/SLY-F0X/PhishingEmailAnalyzer/blob/main/illustration/Phish_Filtering_3.PNG "Отфильтрованные письма в специальной папке")
 
+- Пример содержания некоторых отфильтрованных писем 
+![Изображение](https://github.com/SLY-F0X/PhishingEmailAnalyzer/blob/main/illustration/Phish_Filtering_4.png "Примеры отфильтрованных писем")
+
 ## Метод анализа отдельно взятого письма
 - Предпросмотр потенциально фишингового письма
     ![Изображение](https://github.com/SLY-F0X/PhishingEmailAnalyzer/blob/main/illustration/Single_mail_(1).PNG "Предпросмотр письма")
