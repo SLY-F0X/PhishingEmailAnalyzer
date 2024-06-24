@@ -26,7 +26,7 @@ class BiLSTMClassifier(nn.Module):
     def forward(self, x):
         # Прямое распространение через LSTM
         lstm_out, (hn, cn) = self.lstm(x)
-        # Конкатенируем последние скрытые состояния с обеих направлений
+        # Конкатенируем последние скрытые состояния с обоих направлений
         hn_cat = torch.cat((hn[-2], hn[-1]), dim=1)
         return self.fc(hn_cat)  # Возвращаем результат последнего скрытого состояния
 
