@@ -40,28 +40,28 @@
 
 # Графический интерфейс
 ## Метод массового анализа и фильтрации фишинга в выбранной папке на сервере ##
-- Запуск процесса фильтрации писем в выбранной папке
+1. Запуск процесса фильтрации писем в выбранной папке
 ![Изображение](https://github.com/SLY-F0X/PhishingEmailAnalyzer/blob/main/illustration/Phish_Filtering_1.PNG "Фильтрация писем в папке")
 
-- Результат фильтрации
+2. Результат фильтрации
 ![Изображение](https://github.com/SLY-F0X/PhishingEmailAnalyzer/blob/main/illustration/Phish_Filtering_2.PNG "Результат фильтрации")
 
-- Отфильтрованные письма в созданной папке "FilteredPhishing" на сервере 
+3. Отфильтрованные письма в созданной папке "FilteredPhishing" на сервере 
 ![Изображение](https://github.com/SLY-F0X/PhishingEmailAnalyzer/blob/main/illustration/Phish_Filtering_3.PNG "Отфильтрованные письма в специальной папке")
 
-- Пример содержания некоторых отфильтрованных писем 
+4. Пример содержания некоторых отфильтрованных писем 
 ![Изображение](https://github.com/SLY-F0X/PhishingEmailAnalyzer/blob/main/illustration/Phish_Filtering_4.png "Примеры отфильтрованных писем")
 
 ## Метод анализа отдельно взятого письма
-- Предпросмотр потенциально фишингового письма
+1. Предпросмотр потенциально фишингового письма
     ![Изображение](https://github.com/SLY-F0X/PhishingEmailAnalyzer/blob/main/illustration/Single_mail_(1).PNG "Предпросмотр письма")
 
-- Обработка приложения письма с помощью Virus Total
+2. Обработка приложения письма с помощью Virus Total
     ![Изображение](https://github.com/SLY-F0X/PhishingEmailAnalyzer/blob/main/illustration/Single_mail_(2).png "Загрузка приложения в Virus Total")
 
-- Результат отчета сканирования файла приложения с помощью Virus Total
+3. Результат отчета сканирования файла приложения с помощью Virus Total
   
     ![Изображение](https://github.com/SLY-F0X/PhishingEmailAnalyzer/blob/main/illustration/Single_mail_(3).png "Результат отчета сканирования")
 
-- Вывод подробной информации и статистики об анализируемом письме и применениние фильтрации на основе решения алгоритма случайного леса
+4. Вывод подробной информации и статистики об анализируемом письме и применениние фильтрации на основе решения алгоритма случайного леса
     ![Изображение](https://github.com/SLY-F0X/PhishingEmailAnalyzer/blob/main/illustration/Single_mail_(4).png "Фильтрация выбранного письма на основе заключения от алгоритма случайного леса")
