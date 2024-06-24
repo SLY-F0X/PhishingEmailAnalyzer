@@ -1,0 +1,10 @@
+pip install customtkinter
+pip install email
+pip install numpy
+pip install matplotlib
+pip install beautifulsoup4 html5lib
+pip install spacy==3.7.0
+python -m spacy download ru_core_news_md
+pip install joblib
+pip install torch
+pip install scikit-learn==1.4.2
